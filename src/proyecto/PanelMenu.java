@@ -28,34 +28,71 @@ public class PanelMenu extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        balloonManager1 = new org.edisoncor.gui.util.BalloonManager();
+        Familia_Registrada = new javax.swing.JButton();
+        Nueva_Familia = new javax.swing.JButton();
+        Reportes = new javax.swing.JButton();
+        Imagen_Familia_Registrada = new org.edisoncor.gui.panel.PanelImage();
+        Imagen_Nueva_Familia = new org.edisoncor.gui.panel.PanelImage();
+        Imagen_Reportes = new org.edisoncor.gui.panel.PanelImage();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(204, 255, 255));
         setSize(new java.awt.Dimension(1000, 800));
 
-        jButton1.setBackground(new java.awt.Color(153, 255, 255));
-        jButton1.setForeground(new java.awt.Color(102, 102, 102));
-        jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton1.setLabel("Familia Registrada");
-        jButton1.setPreferredSize(new java.awt.Dimension(99, 23));
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        Familia_Registrada.setBackground(new java.awt.Color(153, 255, 255));
+        Familia_Registrada.setForeground(new java.awt.Color(102, 102, 102));
+        Familia_Registrada.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Familia_Registrada.setLabel("Familia Registrada");
+        Familia_Registrada.setPreferredSize(new java.awt.Dimension(99, 23));
+        Familia_Registrada.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                Familia_RegistradaActionPerformed(evt);
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(153, 255, 255));
-        jButton2.setForeground(new java.awt.Color(102, 102, 102));
-        jButton2.setText("Nueva Familia");
-        jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Nueva_Familia.setBackground(new java.awt.Color(153, 255, 255));
+        Nueva_Familia.setForeground(new java.awt.Color(102, 102, 102));
+        Nueva_Familia.setText("Nueva Familia");
+        Nueva_Familia.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
-        jButton3.setBackground(new java.awt.Color(153, 255, 255));
-        jButton3.setForeground(new java.awt.Color(102, 102, 102));
-        jButton3.setText("Reportes");
-        jButton3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        Reportes.setBackground(new java.awt.Color(153, 255, 255));
+        Reportes.setForeground(new java.awt.Color(102, 102, 102));
+        Reportes.setText("Reportes");
+        Reportes.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+
+        javax.swing.GroupLayout Imagen_Familia_RegistradaLayout = new javax.swing.GroupLayout(Imagen_Familia_Registrada);
+        Imagen_Familia_Registrada.setLayout(Imagen_Familia_RegistradaLayout);
+        Imagen_Familia_RegistradaLayout.setHorizontalGroup(
+            Imagen_Familia_RegistradaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        Imagen_Familia_RegistradaLayout.setVerticalGroup(
+            Imagen_Familia_RegistradaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 111, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout Imagen_Nueva_FamiliaLayout = new javax.swing.GroupLayout(Imagen_Nueva_Familia);
+        Imagen_Nueva_Familia.setLayout(Imagen_Nueva_FamiliaLayout);
+        Imagen_Nueva_FamiliaLayout.setHorizontalGroup(
+            Imagen_Nueva_FamiliaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        Imagen_Nueva_FamiliaLayout.setVerticalGroup(
+            Imagen_Nueva_FamiliaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 111, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout Imagen_ReportesLayout = new javax.swing.GroupLayout(Imagen_Reportes);
+        Imagen_Reportes.setLayout(Imagen_ReportesLayout);
+        Imagen_ReportesLayout.setHorizontalGroup(
+            Imagen_ReportesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        Imagen_ReportesLayout.setVerticalGroup(
+            Imagen_ReportesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 111, Short.MAX_VALUE)
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -63,32 +100,43 @@ public class PanelMenu extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(91, 91, 91)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(Familia_Registrada, javax.swing.GroupLayout.DEFAULT_SIZE, 119, Short.MAX_VALUE)
+                    .addComponent(Imagen_Familia_Registrada, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(64, 64, 64)
-                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(Nueva_Familia, javax.swing.GroupLayout.DEFAULT_SIZE, 119, Short.MAX_VALUE)
+                    .addComponent(Imagen_Nueva_Familia, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(52, 52, 52)
-                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(Reportes, javax.swing.GroupLayout.DEFAULT_SIZE, 119, Short.MAX_VALUE)
+                    .addComponent(Imagen_Reportes, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(80, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(305, 305, 305)
+                .addGap(94, 94, 94)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Imagen_Reportes, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Imagen_Nueva_Familia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Imagen_Familia_Registrada, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(100, 100, 100)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(Familia_Registrada, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Nueva_Familia, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Reportes, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(122, Short.MAX_VALUE))
         );
 
-        jButton1.getAccessibleContext().setAccessibleName("Familia  Registrada");
+        Familia_Registrada.getAccessibleContext().setAccessibleName("Familia  Registrada");
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void Familia_RegistradaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Familia_RegistradaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_Familia_RegistradaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -127,8 +175,12 @@ public class PanelMenu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
+    private javax.swing.JButton Familia_Registrada;
+    private org.edisoncor.gui.panel.PanelImage Imagen_Familia_Registrada;
+    private org.edisoncor.gui.panel.PanelImage Imagen_Nueva_Familia;
+    private org.edisoncor.gui.panel.PanelImage Imagen_Reportes;
+    private javax.swing.JButton Nueva_Familia;
+    private javax.swing.JButton Reportes;
+    private org.edisoncor.gui.util.BalloonManager balloonManager1;
     // End of variables declaration//GEN-END:variables
 }

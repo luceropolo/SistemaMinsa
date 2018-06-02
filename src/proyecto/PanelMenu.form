@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="org.edisoncor.gui.util.BalloonManager" name="balloonManager1">
+    </Component>
+  </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -31,11 +35,20 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
-              <Component id="jButton1" min="-2" pref="119" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="Familia_Registrada" pref="119" max="32767" attributes="0"/>
+                  <Component id="Imagen_Familia_Registrada" max="32767" attributes="0"/>
+              </Group>
               <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
-              <Component id="jButton2" min="-2" pref="119" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="Nueva_Familia" pref="119" max="32767" attributes="0"/>
+                  <Component id="Imagen_Nueva_Familia" max="32767" attributes="0"/>
+              </Group>
               <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
-              <Component id="jButton3" min="-2" pref="119" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="Reportes" pref="119" max="32767" attributes="0"/>
+                  <Component id="Imagen_Reportes" max="32767" attributes="0"/>
+              </Group>
               <EmptySpace pref="80" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -43,11 +56,17 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="305" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="Imagen_Reportes" min="-2" max="-2" attributes="0"/>
+                  <Component id="Imagen_Nueva_Familia" min="-2" max="-2" attributes="0"/>
+                  <Component id="Imagen_Familia_Registrada" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="100" pref="100" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jButton1" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
-                  <Component id="jButton2" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
-                  <Component id="jButton3" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                  <Component id="Familia_Registrada" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                  <Component id="Nueva_Familia" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                  <Component id="Reportes" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="122" max="32767" attributes="0"/>
           </Group>
@@ -55,7 +74,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JButton" name="jButton1">
+    <Component class="javax.swing.JButton" name="Familia_Registrada">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="99" type="rgb"/>
@@ -73,10 +92,10 @@
         <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Familia  Registrada"/>
       </AccessibilityProperties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Familia_RegistradaActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton2">
+    <Component class="javax.swing.JButton" name="Nueva_Familia">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="99" type="rgb"/>
@@ -88,7 +107,7 @@
         <Property name="horizontalTextPosition" type="int" value="0"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton3">
+    <Component class="javax.swing.JButton" name="Reportes">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="ff" red="99" type="rgb"/>
@@ -100,5 +119,50 @@
         <Property name="horizontalTextPosition" type="int" value="0"/>
       </Properties>
     </Component>
+    <Container class="org.edisoncor.gui.panel.PanelImage" name="Imagen_Familia_Registrada">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="111" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="org.edisoncor.gui.panel.PanelImage" name="Imagen_Nueva_Familia">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="111" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="org.edisoncor.gui.panel.PanelImage" name="Imagen_Reportes">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="111" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
   </SubComponents>
 </Form>

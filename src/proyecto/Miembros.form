@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Component id="btn_GuardarDatos" min="-2" pref="140" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="lbl_IDFamilia" max="32767" attributes="0"/>
+                          <Component id="lbl_Condicion" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lbl_Nombre" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lbl_Apellido" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lbl_Edad" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lbl_Sexo" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lbl_Dni" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lbl_Nacimiento" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lbl_Parentesco" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lbl_Estado" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lbl_Grado" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lbl_Ocupacion" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="cmb_Parentesco" max="32767" attributes="0"/>
+                                  <Component id="cmb_EstadoCivil" max="32767" attributes="0"/>
+                                  <Component id="cmb_Condicion" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane7" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane6" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane5" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jScrollPane3" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
+                                          <Component id="cmb_Sexo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="134" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="cmb_Grado" pref="217" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbl_Religion" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_Idioma" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="117" pref="117" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txt_Idioma" alignment="1" max="32767" attributes="0"/>
+                          <Component id="txt_Religion" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="lbl_IDFamilia" min="-2" pref="25" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbl_Nombre" alignment="0" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbl_Apellido" min="-2" pref="21" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbl_Edad" min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="jScrollPane3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_Idioma" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                  <Component id="txt_Idioma" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="20" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_Sexo" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="cmb_Sexo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Component id="jScrollPane6" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_Religion" alignment="3" max="32767" attributes="0"/>
+                          <Component id="txt_Religion" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="lbl_Dni" min="-2" pref="21" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="lbl_Nacimiento" min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="jScrollPane5" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_Parentesco" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="cmb_Parentesco" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_Estado" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="cmb_EstadoCivil" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_Grado" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="cmb_Grado" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="lbl_Ocupacion" min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="jScrollPane7" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbl_Condicion" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                  <Component id="cmb_Condicion" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Component id="btn_GuardarDatos" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lbl_IDFamilia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="  ID familia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Nombre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Nombres"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Apellido">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Apellidos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Edad">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Edad"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Sexo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sexo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Dni">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" DNI/Carnet"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Nacimiento">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Fecha Nacimiento"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Parentesco">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Parentesco"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Estado">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado Civil"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Grado">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Grado Instruccion"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Ocupacion">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=" Ocupaci&#xf3;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Condicion">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Condicion Ocupacion"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_Parentesco">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="16">
+            <StringItem index="0" value="Padre"/>
+            <StringItem index="1" value="Madre"/>
+            <StringItem index="2" value="Hija/o"/>
+            <StringItem index="3" value="Hija/o Adoptiva/o"/>
+            <StringItem index="4" value="Abuela/o"/>
+            <StringItem index="5" value="T&#xed;o/a"/>
+            <StringItem index="6" value="Nieto/a"/>
+            <StringItem index="7" value="Padrastro"/>
+            <StringItem index="8" value="Madrastra"/>
+            <StringItem index="9" value="Sobrino/a"/>
+            <StringItem index="10" value="Prima/o"/>
+            <StringItem index="11" value="Bis-Abuelo/a"/>
+            <StringItem index="12" value="Amiga/o"/>
+            <StringItem index="13" value="Hermano/a"/>
+            <StringItem index="14" value="Yerno"/>
+            <StringItem index="15" value="Nuera"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_EstadoCivil">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="Soltero/a"/>
+            <StringItem index="1" value="Conviviente"/>
+            <StringItem index="2" value="Casado/a"/>
+            <StringItem index="3" value="Separada/o"/>
+            <StringItem index="4" value="Divorciado/a"/>
+            <StringItem index="5" value="Viuda"/>
+            <StringItem index="6" value="Otros"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="txt_nombre">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="txt_Apellido">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="txt_Edad">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JComboBox" name="cmb_Sexo">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="M"/>
+            <StringItem index="1" value="F"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmb_SexoActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="txt_Nacimiento">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="txt_Dni">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JComboBox" name="cmb_Grado">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="10">
+            <StringItem index="0" value="Sin Instruccion"/>
+            <StringItem index="1" value="Inicial"/>
+            <StringItem index="2" value="Primaria Incompleta"/>
+            <StringItem index="3" value="Primaria Completa"/>
+            <StringItem index="4" value="Secundaria Incompleta"/>
+            <StringItem index="5" value="Secundaria Completa"/>
+            <StringItem index="6" value="Superior Completo"/>
+            <StringItem index="7" value="Superior Incompleto"/>
+            <StringItem index="8" value=" "/>
+            <StringItem index="9" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmb_Condicion">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="6">
+            <StringItem index="0" value="Trabajador/a Estable"/>
+            <StringItem index="1" value="Eventual"/>
+            <StringItem index="2" value="Sin Ocupaci&#xf3;n"/>
+            <StringItem index="3" value="Jubilado/a"/>
+            <StringItem index="4" value="Estudiante"/>
+            <StringItem index="5" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane7">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="txt_Ocupacion">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btn_GuardarDatos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Guardar Datos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Idioma">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Idioma"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbl_Religion">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Religion"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_Idioma">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt_Religion">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_ReligionActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
