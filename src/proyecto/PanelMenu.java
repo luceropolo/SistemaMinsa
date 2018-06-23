@@ -51,6 +51,11 @@ public class PanelMenu extends javax.swing.JFrame {
         jButton2.setForeground(new java.awt.Color(102, 102, 102));
         jButton2.setText("Nueva Familia");
         jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jButton3.setBackground(new java.awt.Color(153, 255, 255));
         jButton3.setForeground(new java.awt.Color(102, 102, 102));
@@ -89,6 +94,13 @@ public class PanelMenu extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        caracteristicas_vivienda cb = new caracteristicas_vivienda();
+        cb.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
