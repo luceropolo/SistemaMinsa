@@ -28,115 +28,104 @@ public class PanelMenu extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        balloonManager1 = new org.edisoncor.gui.util.BalloonManager();
-        Familia_Registrada = new javax.swing.JButton();
-        Nueva_Familia = new javax.swing.JButton();
-        Reportes = new javax.swing.JButton();
-        Imagen_Familia_Registrada = new org.edisoncor.gui.panel.PanelImage();
-        Imagen_Nueva_Familia = new org.edisoncor.gui.panel.PanelImage();
-        Imagen_Reportes = new org.edisoncor.gui.panel.PanelImage();
+        jToolBar1 = new javax.swing.JToolBar();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        btn_newFamilia = new javax.swing.JButton();
+        btn_famregistrada = new javax.swing.JButton();
+        btn_reportes = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+
+        jToolBar1.setRollover(true);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(204, 255, 255));
         setSize(new java.awt.Dimension(1000, 800));
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        Familia_Registrada.setBackground(new java.awt.Color(153, 255, 255));
-        Familia_Registrada.setForeground(new java.awt.Color(102, 102, 102));
-        Familia_Registrada.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        Familia_Registrada.setLabel("Familia Registrada");
-        Familia_Registrada.setPreferredSize(new java.awt.Dimension(99, 23));
-        Familia_Registrada.addActionListener(new java.awt.event.ActionListener() {
+        jLabel3.setFont(new java.awt.Font("Charlemagne Std", 3, 14)); // NOI18N
+        jLabel3.setText("Familia registrada");
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, -1, -1));
+
+        jLabel2.setFont(new java.awt.Font("Charlemagne Std", 3, 14)); // NOI18N
+        jLabel2.setText("Nueva Familia");
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 120, -1, -1));
+
+        jLabel4.setFont(new java.awt.Font("Charlemagne Std", 3, 14)); // NOI18N
+        jLabel4.setText("Reportes");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 380, -1, -1));
+
+        btn_newFamilia.setBackground(new java.awt.Color(0, 0, 0));
+        btn_newFamilia.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/gohan1.png"))); // NOI18N
+        btn_newFamilia.setAlignmentY(0.0F);
+        btn_newFamilia.setBorder(null);
+        btn_newFamilia.setContentAreaFilled(false);
+        btn_newFamilia.setDisabledIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/gohan3.png"))); // NOI18N
+        btn_newFamilia.setDisabledSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/gohan3.png"))); // NOI18N
+        btn_newFamilia.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/gohan2.png"))); // NOI18N
+        btn_newFamilia.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/gohan2.png"))); // NOI18N
+        btn_newFamilia.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Familia_RegistradaActionPerformed(evt);
+                btn_newFamiliaActionPerformed(evt);
             }
         });
+        getContentPane().add(btn_newFamilia, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 20, 90, 90));
 
-        Nueva_Familia.setBackground(new java.awt.Color(153, 255, 255));
-        Nueva_Familia.setForeground(new java.awt.Color(102, 102, 102));
-        Nueva_Familia.setText("Nueva Familia");
-        Nueva_Familia.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btn_famregistrada.setBackground(new java.awt.Color(0, 0, 0));
+        btn_famregistrada.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/gok1.png"))); // NOI18N
+        btn_famregistrada.setAlignmentY(0.0F);
+        btn_famregistrada.setBorder(null);
+        btn_famregistrada.setContentAreaFilled(false);
+        btn_famregistrada.setDisabledIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/gok3.png"))); // NOI18N
+        btn_famregistrada.setDisabledSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/gok3.png"))); // NOI18N
+        btn_famregistrada.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/gok2.png"))); // NOI18N
+        btn_famregistrada.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/gok2.png"))); // NOI18N
+        btn_famregistrada.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_famregistradaActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btn_famregistrada, new org.netbeans.lib.awtextra.AbsoluteConstraints(43, 273, 120, 90));
 
-        Reportes.setBackground(new java.awt.Color(153, 255, 255));
-        Reportes.setForeground(new java.awt.Color(102, 102, 102));
-        Reportes.setText("Reportes");
-        Reportes.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btn_reportes.setBackground(new java.awt.Color(0, 0, 0));
+        btn_reportes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/veg1.png"))); // NOI18N
+        btn_reportes.setAlignmentY(0.0F);
+        btn_reportes.setBorder(null);
+        btn_reportes.setContentAreaFilled(false);
+        btn_reportes.setDisabledIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/veg3.png"))); // NOI18N
+        btn_reportes.setDisabledSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/veg3.png"))); // NOI18N
+        btn_reportes.setRolloverIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/veg2.png"))); // NOI18N
+        btn_reportes.setRolloverSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/veg2.png"))); // NOI18N
+        btn_reportes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_reportesActionPerformed(evt);
+            }
+        });
+        getContentPane().add(btn_reportes, new org.netbeans.lib.awtextra.AbsoluteConstraints(433, 273, 110, 90));
 
-        javax.swing.GroupLayout Imagen_Familia_RegistradaLayout = new javax.swing.GroupLayout(Imagen_Familia_Registrada);
-        Imagen_Familia_Registrada.setLayout(Imagen_Familia_RegistradaLayout);
-        Imagen_Familia_RegistradaLayout.setHorizontalGroup(
-            Imagen_Familia_RegistradaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        Imagen_Familia_RegistradaLayout.setVerticalGroup(
-            Imagen_Familia_RegistradaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 111, Short.MAX_VALUE)
-        );
-
-        javax.swing.GroupLayout Imagen_Nueva_FamiliaLayout = new javax.swing.GroupLayout(Imagen_Nueva_Familia);
-        Imagen_Nueva_Familia.setLayout(Imagen_Nueva_FamiliaLayout);
-        Imagen_Nueva_FamiliaLayout.setHorizontalGroup(
-            Imagen_Nueva_FamiliaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        Imagen_Nueva_FamiliaLayout.setVerticalGroup(
-            Imagen_Nueva_FamiliaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 111, Short.MAX_VALUE)
-        );
-
-        javax.swing.GroupLayout Imagen_ReportesLayout = new javax.swing.GroupLayout(Imagen_Reportes);
-        Imagen_Reportes.setLayout(Imagen_ReportesLayout);
-        Imagen_ReportesLayout.setHorizontalGroup(
-            Imagen_ReportesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        Imagen_ReportesLayout.setVerticalGroup(
-            Imagen_ReportesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 111, Short.MAX_VALUE)
-        );
-
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(91, 91, 91)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(Familia_Registrada, javax.swing.GroupLayout.DEFAULT_SIZE, 119, Short.MAX_VALUE)
-                    .addComponent(Imagen_Familia_Registrada, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(64, 64, 64)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(Nueva_Familia, javax.swing.GroupLayout.DEFAULT_SIZE, 119, Short.MAX_VALUE)
-                    .addComponent(Imagen_Nueva_Familia, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(52, 52, 52)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(Reportes, javax.swing.GroupLayout.DEFAULT_SIZE, 119, Short.MAX_VALUE)
-                    .addComponent(Imagen_Reportes, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(80, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(94, 94, 94)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Imagen_Reportes, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Imagen_Nueva_Familia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Imagen_Familia_Registrada, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(100, 100, 100)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Familia_Registrada, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Nueva_Familia, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Reportes, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(122, Short.MAX_VALUE))
-        );
-
-        Familia_Registrada.getAccessibleContext().setAccessibleName("Familia  Registrada");
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/iconos/minsa3.JPG"))); // NOI18N
+        jLabel1.setText("marco");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 580, 410));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void Familia_RegistradaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Familia_RegistradaActionPerformed
+    private void btn_newFamiliaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_newFamiliaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_Familia_RegistradaActionPerformed
+        FichaFamiliar rf = new FichaFamiliar();
+        rf.setVisible(true);
+        dispose();
+ 
+    }//GEN-LAST:event_btn_newFamiliaActionPerformed
+
+    private void btn_reportesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_reportesActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_reportesActionPerformed
+
+    private void btn_famregistradaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_famregistradaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_famregistradaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -175,12 +164,13 @@ public class PanelMenu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton Familia_Registrada;
-    private org.edisoncor.gui.panel.PanelImage Imagen_Familia_Registrada;
-    private org.edisoncor.gui.panel.PanelImage Imagen_Nueva_Familia;
-    private org.edisoncor.gui.panel.PanelImage Imagen_Reportes;
-    private javax.swing.JButton Nueva_Familia;
-    private javax.swing.JButton Reportes;
-    private org.edisoncor.gui.util.BalloonManager balloonManager1;
+    private javax.swing.JButton btn_famregistrada;
+    private javax.swing.JButton btn_newFamilia;
+    private javax.swing.JButton btn_reportes;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JToolBar jToolBar1;
     // End of variables declaration//GEN-END:variables
 }
